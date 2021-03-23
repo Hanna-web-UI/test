@@ -1,0 +1,195 @@
+.bio-title {
+   font-size: 45px;/ * Розмір тексту * / 
+  line-height: 2;/*міжрядковий інтервал тексту*/
+  margin-bottom:20px;/* Відступ знизу */
+}
+
+.bio-occupation {
+  margin-bottom:27px;/* Відступ знизу */
+}
+.bio-title ,
+.bio-occupation {
+  color: #2a2a2a;/ * Колір тексту * /
+}
+
+.bio-occupation,
+.bio-about {
+  font-size: 14px;/ * Розмір тексту * / 
+  line-height: 1.714;/*міжрядковий інтервал тексту*/
+  color: #595959;/ * Колір тексту * /
+}
+
+.projects-title {
+  margin-bottom: 14px;
+  color: #2a2a2a;/ * Колір тексту * /
+  font-size: 22px;/ * Розмір тексту * / 
+  line-height: 1.091;/*міжрядковий інтервал тексту*/
+}
+
+.projects-link {
+  color: #220fdc;/ * Колір тексту * /
+  font-size: 14px;/ * Розмір тексту * / 
+  line-height: 1.714;/*міжрядковий інтервал тексту*/
+}
+.projects-link:hover {
+  color: #ff6b08;/ * Колір тексту * /
+}
+.jobs-title {
+  color: #2a2a2a;/ * Колір тексту * /
+  font-size: 22px;/ * Розмір тексту * / 
+  line-height: 1.091;/*міжрядковий інтервал тексту*/
+  margin-bottom:26px;/* Відступ знизу */
+}
+
+.jobs-occupation {
+  color: #2a2a2a;/ * Колір тексту * /
+  font-size: 16px;/ * Розмір тексту * / 
+  line-height: 1.5;/*міжрядковий інтервал тексту*/
+  margin-bottom:16px;/* Відступ знизу */
+}
+
+.jobs-time {
+  color: #828282;/ * Колір тексту * /
+  font-size: 12px;/ * Розмір тексту * / 
+  line-height: 2;/*міжрядковий інтервал тексту*/
+  margin-bottom:18px;/* Відступ знизу */
+}
+
+.experience-item {
+  color: #595959;/ * Колір тексту * /
+  font-size: 14px;/ * Розмір тексту * / 
+  line-height: 1.714;/*міжрядковий інтервал тексту*/
+  margin-bottom:10px;/* Відступ знизу */
+}
+
+.accent {
+  color: #ff6b08;/ * Колір тексту * /
+}
+.experience{
+  margin-bottom: 28px;/* Відступ знизу */
+}
+.education-title {
+color:#2a2a2a;/ * Колір тексту * /
+font-size:22px;/ * Розмір тексту * / 
+line-height:1.091;/*міжрядковий інтервал тексту*/
+margin-bottom:26px;/* Відступ знизу */
+}
+.education-degree {
+color:#2a2a2a;/ * Колір тексту * /
+font-size:16px;/ * Розмір тексту * / 
+line-height:1.5;/*міжрядковий інтервал тексту*/
+margin-bottom:16px;/* Відступ знизу */
+}
+.education-time {
+color:#828282;/ * Колір тексту * /
+font-size:12px;/ * Розмір тексту * / 
+line-height:2;/*міжрядковий інтервал тексту*/
+margin-bottom:18px;  /* Відступ знизу */
+}
+.accent {
+color:#ff6b08;/ * Колір тексту * /
+}
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;/* Відступ знизу */
+ }
+.right-side
+  {padding-left:80px; /*Поле зліва від тексту*/
+  padding-bottom:68px;/*Поле знизу від тексту*/
+  padding-top:68px;/*Поле зверху від тексту*/
+  padding-right:200px:}/*Поле праворуч від тексту*/
+  
+  .left-side {
+  width: 370px;/*Ширина блоку*/
+  background-color: #1e2939;/* Колір фону веб-сторінки */
+  color: #fff;/ * Колір тексту * /
+}
+.skills-title {
+  font-size: 22px;/ * Розмір тексту * / 
+  line-height: 1.091;/*міжрядковий інтервал тексту*/
+}
+.skills-item {
+  font-size: 14px;/ * Розмір тексту * / 
+  line-height: 1.714;/*міжрядковий інтервал тексту*/
+}
+/* добавьте код ниже */
+.skills-list {
+list-style:none;
+  padding-left:0;/*Поле зліва від тексту*/
+}
+.skills-item::before {
+  content:'\2022';
+  margin-right:8px;
+  color:#ff6b08;/ * Колір тексту * /
+  font-size:18px;/ * Розмір тексту * / 
+}
+.photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;/* Відступ знизу */
+  }
+.contacts,.skills{
+  padding-left:40px;/*Поле зліва від тексту*/
+}
+.menu-item{
+  border:2px solid:#66CDAA;
+  display: inline-block;
+  position:relative;
+  cursor: pointer;
+}
+.menu-item. submenu{
+  height:40px;
+  width:120px;
+  background:orange;
+  position:absolute;
+  cursor:pointer;
+}
+.container {
+  display: flex;
+  width:1200px; /*Ширина блоку*/
+  margin-left:auto;/*Відступ від лівого края*/
+  margin-right:auto;/*Відступ від правого края*/
+ }
+.left-side {
+  width: 370px;/*Ширина блоку*/
+  background-color: #1e2939;/* Колір фону веб-сторінки */
+  color: #fff;/ * Колір тексту * /
+ }
+.right-side {
+  width: 830px;/*Ширина блоку*/
+  padding-left: 80px;/*Поле зліва від тексту*/
+  padding-right: 200px;/*Поле праворуч від тексту*/
+  padding-top: 68px;/*Поле зверху від тексту*/
+  padding-bottom: 68px;/*Поле знизу від тексту*/
+   }
+.contacts, .skills {
+    padding-left: 40px;/*Поле зліва від тексту*/
+}
+body {
+background-color:#f5f7fa;/* Колір фону веб-сторінки */
+padding:40px;/ * Поля навколо тексту * /
+}
+.container {
+  display: flex;
+  width: 1200px;/*Ширина блоку*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#fff;
+  box-shadow:10px 10px 20px 0px hsla(0, 0%, 0%, 0.1)
+}.left-side {
+  width: 370px;/*Ширина блоку*/
+  background-color: #1e2939;/* Колір фону веб-сторінки */
+  color: #fff;
+}
+.right-side {
+  width: 830px;/*Ширина блоку*/
+  padding-left: 80px;/*Поле зліва від тексту*/
+  padding-right: 200px;/*Поле праворуч від тексту*/
+  padding-top: 68px;/*Поле зверху від тексту*/
+  padding-bottom: 68px;/*Поле знизу від тексту*/
+}
+.contacts, .skills {
+    padding-left: 40px;/*Поле зліва від тексту*/
+}
